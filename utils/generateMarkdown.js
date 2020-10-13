@@ -37,9 +37,7 @@ function generateMarkdown(data) {
  - Run the ${data.tests} command for testing.
 
 # Questions
- - If you have any questions about ${data.title} feel free to contact me at ${data.email}
-
- - https://www.github.com/${data.userName}
+ - If you have any questions about ${data.title} feel free to contact me at ${data.email} or create an issue at https://www.github.com/${data.userName}
 `
 };
 
