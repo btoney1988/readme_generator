@@ -14,7 +14,6 @@ const questions = [
     message: "What is your email address?",
     name: "email",
   },
-
   {
     type: "input",
     message: "What is the title for your project?",
@@ -40,7 +39,6 @@ const questions = [
     message: "What license was used for this README?",
     name: "license",
   },
-
   {
     type: "input",
     message: "Please add contributors",
@@ -51,7 +49,6 @@ const questions = [
     message: "What command do you use to test this App?",
     name: "test",
   }
-
 ];
 
 // function to write README file
