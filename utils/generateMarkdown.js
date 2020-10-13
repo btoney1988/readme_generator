@@ -5,7 +5,7 @@ function generateMarkdown(data) {
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/${data.userName}/${data.title})
 
 # Description
- - ${data.discritption}
+ - ${data.description}
 
 # Table of contents
 
@@ -22,23 +22,23 @@ function generateMarkdown(data) {
 * [Questions](#questions)
 
 # Installation
- - ${data.installation}
+ - The dependencies to be installed are: ${data.installation}
 
 # Usage
- - ${data.usage}
+ - This app is used for ${data.usage}
 
 # License
- - ${data.license}
+ - The project is liscensed under ${data.license}
 
 # Contributing
- - ${data.contributing}
+ - Contributers: ${data.contributing}
 
 # Tests
- - ${data.tests}
+ - Run the ${data.tests} command for testing.
 
 # Questions
- - "https://www.github.com/${github}"
- - "Feel frere to email me at ${email}"
+ - "https://www.github.com/${data.userName}"
+ - "Feel free to email me at ${data.email}"
 `
 };
 

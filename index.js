@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const generatorMarkdown = require("./generateMarkdown")
+const generatorMarkdown = require("./utils/generateMarkdown")
 const fs = require("fs");
 
 // array of questions for user
