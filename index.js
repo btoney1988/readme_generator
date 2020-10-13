@@ -59,12 +59,15 @@ function writeToFile(fileName, data) {
     }
     console.log("Successfully wrote: " + fileName);
   });
-}
+};
 
 // function to initialize program
 function init() {
-
-}
+  inquirer.prompt(questions)
+    .then(function (data) {
+      writeToFile("testREADME.md", generatorMarkdown(data));
+    });
+};
 
 // function call to initialize program
 init();
