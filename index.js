@@ -6,27 +6,17 @@ const fs = require("fs");
 const questions = [
   {
     type: "input",
-    message: "What is your GitHub username?",
-    name: "userName",
-  },
-  {
-    type: "input",
-    message: "What is your email address?",
-    name: "email",
-  },
-  {
-    type: "input",
-    message: "What is the title for your project?",
+    message: "Enter the title of this project.",
     name: "title",
   },
   {
     type: "input",
-    message: "Please give description of your project.",
+    message: "Write a description of this project.",
     name: "description",
   },
   {
     type: "input",
-    message: "What necessary dependencies must be installed to run this app?",
+    message: "Please list dependencies to be installed:",
     name: "installation",
   },
   {
@@ -48,6 +38,16 @@ const questions = [
     type: "input",
     message: "What command do you use to test this App?",
     name: "test",
+  },
+  {
+    type: "input",
+    message: "What is your GitHub username?",
+    name: "userName",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
   }
 ];
 
@@ -57,7 +57,7 @@ function writeToFile(fileName, data) {
     if (err) {
       return console.log(err);
     }
-    console.log("Successfully wrote: " + fileName);
+    console.log("Wrote file:" + fileName);
   });
 };
 
