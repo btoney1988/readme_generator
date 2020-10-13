@@ -1,3 +1,4 @@
+//  Dependencies
 const inquirer = require("inquirer");
 const generatorMarkdown = require("./utils/generateMarkdown")
 const fs = require("fs");
@@ -16,55 +17,60 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please list dependencies to be installed:",
+    message: "List dependencies to be installed:",
     name: "installation",
   },
   {
     type: "input",
-    message: "What is this app used for?",
+    message: "Enter what the app is used for:",
     name: "usage",
   },
   {
     type: "input",
-    message: "What license was used for this README?",
+    message: "Enter licenses used for this project:",
     name: "license",
   },
   {
     type: "input",
-    message: "Please add contributors",
+    message: "List contributors:",
     name: "contributor",
   },
   {
     type: "input",
-    message: "What command do you use to test this App?",
+    message: "Enter command used for testing:",
     name: "test",
   },
   {
     type: "input",
-    message: "What is your GitHub username?",
+    message: "Enter GitHub username:",
     name: "userName",
   },
   {
     type: "input",
-    message: "What is your email address?",
+    message: "Enter email address:",
     name: "email",
   }
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+
   fs.writeFile(fileName, data, function (err) {
+    // If error occurs when writing the file it will show in the console log
     if (err) {
       return console.log(err);
     }
+    // If successful console log will return the file name
     console.log("Wrote file:" + fileName);
   });
 };
 
 // function to initialize program
 function init() {
+  // Inquierer prompt to run through questions array
   inquirer.prompt(questions)
     .then(function (data) {
+      // Write function to create the README.md file from the generate markdown function
       writeToFile("testREADME.md", generatorMarkdown(data));
     });
 };

@@ -1,9 +1,9 @@
 
-# inishing the project an
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com//inishing the project an)
+# 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com//)
 
 # Description
- - , and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project 
+ - 
 
 # Table of contents
 
@@ -20,19 +20,19 @@
 * [Questions](#questions)
 
 # Installation
- - 
+ - The dependencies to be installed are: 
 
 # Usage
- - Your task is to create a command-line application that dynamical
+ - This app is used for 
 
 # License
- - 
+ - The project is liscensed under 
 
 # Contributing
- - undefined
+ - Contributers: undefined
 
 # Tests
- - undefined
+ - Run the undefined command for testing.
 
 # Questions
  - "https://www.github.com/"
