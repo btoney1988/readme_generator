@@ -33,6 +33,9 @@
 
 # Tests
  - Run the `node index.js` command for testing.
+ - ![image](https://user-images.githubusercontent.com/68873509/96016177-74686480-0e16-11eb-945c-7b1eb3d7898f.png)
+
 
 # Questions
  - If you have any questions about readme_generator feel free to contact me at btoney1988@gmail.com or create an issue at https://github.com/btoney1988/readme_generator
+ 
