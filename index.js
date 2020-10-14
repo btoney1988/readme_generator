@@ -35,7 +35,7 @@ const questions = [
       "GPL",
       "Apache",
       "Unlicensed",
-      "Other (Please note you will have to enter correct license in created readme.)"
+      "Other"
     ]
   },
   {
@@ -79,7 +79,7 @@ function init() {
   inquirer.prompt(questions)
     .then(function (data) {
       // Write function to create the README.md file from the generate markdown function
-      writeToFile("testREADME.md", generatorMarkdown(data));
+      writeToFile("sampleREADME.md", generatorMarkdown(data));
     });
 };
 
