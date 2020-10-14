@@ -25,10 +25,10 @@ function generateMarkdown(data) {
  - The dependencies to be installed are: ${data.installation}
 
 # Usage
- - This app is used for ${data.usage}
+ - This app is used for ${data.usage}.
 
 # License
- - The project is liscensed under ${data.license}
+ - The project is liscensed under ${data.license}.
 
 # Contributing
  - Contributers: ${data.contributing}
@@ -37,7 +37,7 @@ function generateMarkdown(data) {
  - Run the ${data.tests} command for testing.
 
 # Questions
- - If you have any questions about ${data.title} feel free to contact me at ${data.email} or create an issue at https://www.github.com/${data.userName}
+ - If you have any questions about ${data.title} feel free to contact me at ${data.email} or create an issue at https://www.github.com/${data.userName}/${data.title}
 `
 };
 
