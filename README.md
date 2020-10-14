@@ -26,7 +26,7 @@
  - This app is used for creating a professional README.md file for any project.
 
 # License
- - The project is liscensed under ISC
+ - The project is liscensed under MIT.
 
 # Contributing
  - Contributers: Brian Toney
