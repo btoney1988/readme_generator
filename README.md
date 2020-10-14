@@ -1,6 +1,6 @@
 # readme_generator
 
-[![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/btoney1988/readme_generator)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/btoney1988/readme_generator)
 
 # Description
  - This is a simple README file generator based off user input. You will need to use `node index.js` command in order to run the code.

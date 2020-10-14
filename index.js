@@ -26,9 +26,15 @@ const questions = [
     name: "usage",
   },
   {
-    type: "input",
+    type: "list",
     message: "Enter licenses used for this project:",
     name: "license",
+    choices: [
+      "MIT",
+      "BSD",
+      "GPL",
+      "Other (Please note you will have to enter correct license in created readme.)"
+    ]
   },
   {
     type: "input",
