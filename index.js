@@ -33,6 +33,8 @@ const questions = [
       "MIT",
       "BSD",
       "GPL",
+      "Apache",
+      "Unlicensed",
       "Other (Please note you will have to enter correct license in created readme.)"
     ]
   },

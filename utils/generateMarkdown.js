@@ -1,11 +1,15 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   if (data.license === "MIT") {
-    data.license = "MIT"
+    data.license = "MIT";
   } else if (data.license === "BSD") {
-    data.license = "BSD"
+    data.license = "BSD";
   } else if (data.license === "GPL") {
-    data.license = "GPL"
+    data.license = "GPL";
+  } else if (data.license === "Apache") {
+    data.license = "Apache";
+  } else if (data.license === "Unlicensed") {
+    data.license = "Unlicensed";
   }
   return `
 # ${data.title}
