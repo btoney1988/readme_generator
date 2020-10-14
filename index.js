@@ -33,12 +33,12 @@ const questions = [
   {
     type: "input",
     message: "List contributors:",
-    name: "contributor",
+    name: "contributing",
   },
   {
     type: "input",
     message: "Enter command used for testing:",
-    name: "test",
+    name: "tests",
   },
   {
     type: "input",
