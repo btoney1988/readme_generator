@@ -4,7 +4,8 @@
 
 # Description
  - This is a simple README file generator based off user input. You will need to use `node index.js` command in order to run the code.
-
+ - After entering all the information for a complete README.md file one will be created using the user's information. 
+ 
 # Table of contents
 
 * [Installation](#installation)
